@@ -39,3 +39,10 @@ mnr.remove ("Suarez")
 Trio = tuple(mnr)
 print(Trio)
 
+# Python - Unpack Tuples
+Trio = ("Messi","Neymar","Suarez",)
+(Lional, SilvaSantos, Defina) = Trio
+
+print(Lional)
+print(SilvaSantos)
+print(Defina)
